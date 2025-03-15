@@ -1,3 +1,4 @@
 from django.contrib import admin
+from lojas.models import Topic
 
-# Register your models here.
+admin.site.register(Topic)
